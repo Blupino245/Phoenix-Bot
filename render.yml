@@ -8,17 +8,17 @@ services:
     plan: free
     autoDeploy: true
     envVars:
-      - key: RENDER_APP_NAME
+      - key: blinder
         sync: false
         required: true
-      - key: RENDER_API
+      - key: rnd_27dnzQ5sP2BNnMWBNs2NnMN05qgp
         sync: false
         required: true
-      - key: SESSION_ID
+      - key: Phoenix~TinkerTinker
         sync: false
         required: true
       - key: PREFIX
-        value: .
+        value:!
         required: false
       - key: MODE
         value: public
